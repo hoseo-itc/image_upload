@@ -1,0 +1,17 @@
+---
+
+spring:
+  config:
+    activate:
+      on-profile: "local"
+
+app:
+  image-dir: "c:\\temp"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "aws"
+app:
+  image-dir: "/home/user"
